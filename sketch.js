@@ -47,9 +47,11 @@ function setup() {
 
 	
         box1 = Bodies.rectangle(300,600,20,200);
+	World.add(world, box1);
 	box2 = Bodies.rectangle(400,650,200,20);
+	World.add(world, box2);
 	box3 = Bodies.rectangle(500,600,20,100);
-	 
+	 World.add(world, box3);
 }
 
 
