@@ -46,9 +46,9 @@ function setup() {
  	World.add(world, ground);
 
 	
-        box1 = Bodies.rectangle(300,600,20,200)
-	box2 = new Box(400,650,200,20);
-	box3 = new Box(500,600,20,100)
+        box1 = Bodies.rectangle(300,600,20,200);
+	box2 = Bodies.rectangle(400,650,200,20);
+	box3 = Bodies.rectangle(500,600,20,100);
 	 
 }
 
